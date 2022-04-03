@@ -150,6 +150,18 @@ public class Main {
 
     }
 
+    private  static void printMenu1(){
+        System.out.println("Available options \n press");
+        System.out.println("0- to quite \n" +
+                "1- to play next song \n" +
+                "2- to play previous song \n" +
+                "3- to replay the current song \n" +
+                "4- List of all songs \n" +
+                "5- print all available options \n" +
+                "6- delete current song \n");
+
+    }
+
     private static  void printList(LinkedList<Song>playList){
         Iterator<Song> iterator =playList.iterator();
         System.out.println("______________");
